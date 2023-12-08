@@ -1,0 +1,40 @@
+stages:
+  - build
+#  - tests
+#  - release
+
+cache:
+  key: "$CI_JOB_STAGE-$CI_COMMIT_REF_NAME"
+  paths:
+    - build/node_modules
+    - build/package-lock.json
+
+build:laravel-mix:
+  image: node:18
+  stage: build
+  variables: {}
+  before_script:
+    - cd build/
+    - npm i --dev
+  script:
+    - npm run prod
+  cache:
+    key: "$CI_JOB_STAGE-$CI_COMMIT_REF_NAME"
+    policy: pull-push
+    paths:
+      - build/node_modules
+      - build/package-lock.json
+
+# Publishes a tag/branch to Composer Packages of the current project
+#release:npm-package:
+#  image: node:latest
+#  stage: release
+#  needs:
+#  variables:
+#
+#  when: on_success
+#  only:
+#    - main
+#    - development
+#    - /^release/.+$/
+#    - /^beta/.+$/
