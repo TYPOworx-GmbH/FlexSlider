@@ -6,13 +6,13 @@
  * Free to use under the GPLv2 and later license.
  * http://www.gnu.org/licenses/gpl-2.0.html
  *
+ * Contributing author: Garbiel Kaufmann <info@typoworx.com>
  * Contributing author: Tyler Smith ($mbmufffin)
- *
  */
-@import "less/variables.scss";
-@import "less/mixins.scss";
-@import "less/font.scss";
-@import "less/resets.scss";
-@import "less/base.scss";
-@import "less/theme.scss";
-@import "less/responsive.scss";
+@import "scss/_variables";
+@import "scss/_mixins";
+@import "scss/_font";
+@import "scss/_resets";
+@import "scss/_base";
+@import "scss/_theme";
+@import "scss/_responsive";
