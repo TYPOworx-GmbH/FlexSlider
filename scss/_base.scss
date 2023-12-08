@@ -2,35 +2,30 @@
  * BASE STYLES
  * ====================================================================================================================*/
 
-
-.flexslider {
-
+.flexslider
+{
   margin: 0;
   padding: 0;
 
-  .slides {
-
-    > li {
-
+  .slides
+  {
+    > li
+    {
       display: none;
       -webkit-backface-visibility: hidden;
-
     }
 
-    img {
-
+    img
+    {
       width: 100%;
       display: block;
-
     }
-
 
     //
     // Clearfix for the .slides element
     //
-
-    &:after {
-
+    &:after
+    {
       content: "\0020";
       display: block;
       clear: both;
@@ -38,21 +33,17 @@
       line-height: 0;
       height: 0;
 
-
     }
 
-    html[xmlns] & {
-
+    html[xmlns] &
+    {
       display: block;
-
     }
 
-    * html & {
-
+    * html &
+    {
       height: 1%;
-
     }
-
 
     //
     // No JavaScript Fallback
@@ -60,15 +51,13 @@
     // include js that eliminates this class on page load
     //
 
-
-    .no-js & {
-
-      > li {
-
-        &:first-child {
-
+    .no-js &
+    {
+      > li
+      {
+        &:first-child
+        {
           display: block;
-
         }
       }
     }

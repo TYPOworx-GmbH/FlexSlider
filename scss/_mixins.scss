@@ -1,32 +1,32 @@
 //
 // Transition
 //
-@mixin transition( $duration: $default-duration, $easing: $default-easing ) {
-
-  -webkit-transition: all $duration $easing;
-  -moz-transition: all $duration $easing;
-  -ms-transition: all $duration $easing;
-  -o-transition: all $duration $easing;
-  transition: all $duration $easing;
+@mixin transition( $flexslider-duration: $flexslider-default-duration, $flexslider-easing: $flexslider-default-easing )
+{
+  -webkit-transition: all $flexslider-duration $flexslider-easing;
+  -moz-transition: all $flexslider-duration $flexslider-easing;
+  -ms-transition: all $flexslider-duration $flexslider-easing;
+  -o-transition: all $flexslider-duration $flexslider-easing;
+  transition: all $flexslider-duration $flexslider-easing;
 }
 
 //
 // Border-radius
 //
-@mixin border-radius( $radius: $default-border-radius ) {
-
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  border-radius: $radius;
+@mixin border-radius( $flexslider-radius: $flexslider-default-border-radius )
+{
+  -webkit-border-radius: $flexslider-radius;
+  -moz-border-radius: $flexslider-radius;
+  border-radius: $flexslider-radius;
 }
 
 //
 // Box-shadow
 //
-@mixin box-shadow( $x-axis: $default-box-shadow-x-axis, $y-axis: $default-box-shadow-y-axis, $blur: $default-box-shadow-blur, $color: $default-box-shadow-color, $inset: $default-box-shadow-inset ) {
-
-  -webkit-box-shadow: $inset $x-axis $y-axis $blur $color;
-  -moz-box-shadow: $inset $x-axis $y-axis $blur $color;
-  -o-box-shadow: $inset $x-axis $y-axis $blur $color;
-  box-shadow: $inset $x-axis $y-axis $blur $color;
+@mixin box-shadow( $flexslider-x-axis: $flexslider-default-box-shadow-x-axis, $flexslider-y-axis: $flexslider-default-box-shadow-y-axis, $flexslider-blur: $flexslider-default-box-shadow-blur, $flexslider-color: $flexslider-default-box-shadow-color, $flexslider-inset: $flexslider-default-box-shadow-inset )
+{
+  -webkit-box-shadow: $flexslider-inset $flexslider-x-axis $flexslider-y-axis $flexslider-blur $flexslider-color;
+  -moz-box-shadow: $flexslider-inset $flexslider-x-axis $flexslider-y-axis $flexslider-blur $flexslider-color;
+  -o-box-shadow: $flexslider-inset $flexslider-x-axis $flexslider-y-axis $flexslider-blur $flexslider-color;
+  box-shadow: $flexslider-inset $flexslider-x-axis $flexslider-y-axis $flexslider-blur $flexslider-color;
 }

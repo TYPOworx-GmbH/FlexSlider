@@ -153,7 +153,7 @@
         if (asNav) { methods.asNav.setup(); }
 
         // TOUCH
-        if (touch && slider.vars.touch) { methods.touch(); }
+        if (touch /*|| !!slider.vars.mousegestures*/) { methods.touch(); }
 
         // FADE&&SMOOTHHEIGHT || SLIDE:
         if (!fade || (fade && slider.vars.smoothHeight)) { $(window).bind("resize orientationchange focus", methods.resize); }
@@ -494,8 +494,6 @@
 
             onTouchEnd = function(e) {
               // finish the touch by undoing the touch session
-              el.removeEventListener('touchmove', onTouchMove, false);
-
               if (slider.animatingTo === slider.currentSlide && !scrolling && !(dx === null)) {
                 var updateDx = (reverse) ? -dx : dx,
                     target = (updateDx > 0) ? slider.getTarget('next') : slider.getTarget('prev');

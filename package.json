@@ -10,14 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/woothemes/FlexSlider.git"
   },
-  "keywords": ["flexslider", "jquery", "slider", "woocommerce", "automattic"],
+  "keywords": [
+    "flexslider",
+    "jquery",
+    "slider",
+    "woocommerce",
+    "automattic"
+  ],
   "license": "GPL-2.0",
   "homepage": "https://github.com/woocommerce/FlexSlider#readme",
   "bugs": {
     "url": "https://github.com/woocommerce/FlexSlider/issues"
   },
   "author": "Automattic <jeff@woothemes.com>",
-  "contributors":[
+  "contributors": [
     {
       "name": "Jeff (main-developer)",
       "email": "jeff@woothemes.com",
