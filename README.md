@@ -21,8 +21,10 @@ To keep up to date with how FlexSlider's development roadmap looks, please see o
 
 ** Version 2.7.2-1 **
 Authored by info@typoworx.com
-- Refactoring Less into ./less
-- Refactoring providing Scss into flexslider.scss and ./scss
+- refactoring js-source into [js](js)
+- refactoring Less into [less](less)
+- refactoring providing Scss into flexslider.scss and [scss](scss)
+- adding Laravel-Mix to provide js/css optimized into [css](css) and [jquery.flexslider.min.js](jquery.flexslider.min.js)
 
 ** Version 2.7.2 **
 
