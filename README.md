@@ -1,6 +1,6 @@
 [![Gitter chat](https://badges.gitter.im/woothemes/FlexSlider.png)](https://gitter.im/woothemes/FlexSlider)
 
-# FlexSlider 2.7.2
+# FlexSlider 2.7.2-1
 http://www.woocommerce.com/flexslider/ - Copyright (c) 2015 WooThemes
 
 ## Releases
@@ -18,6 +18,11 @@ Before contributing, please see our [Contributing Guide](https://github.com/wooc
 To keep up to date with how FlexSlider's development roadmap looks, please see our [development roadmap](https://github.com/woocommerce/FlexSlider/wiki/Roadmap).
 
 ## Updates
+
+** Version 2.7.2-1 **
+Authored by info@typoworx.com
+- Refactoring Less into ./less
+- Refactoring providing Scss into flexslider.scss and ./scss
 
 ** Version 2.7.2 **
 

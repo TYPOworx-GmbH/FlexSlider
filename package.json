@@ -1,6 +1,6 @@
 {
   "name": "flexslider",
-  "version": "2.7.2",
+  "version": "2.7.2-1",
   "description": "An awesome, fully responsive jQuery slider toolkit.",
   "main": "jquery.flexslider.js",
   "scripts": {
@@ -10,19 +10,25 @@
     "type": "git",
     "url": "git+https://github.com/woothemes/FlexSlider.git"
   },
-  "keywords": [
-    "flexslider",
-    "jquery",
-    "slider",
-    "woocommerce",
-    "automattic"
-  ],
-  "author": "Automattic <jeff@woothemes.com>",
+  "keywords": ["flexslider", "jquery", "slider", "woocommerce", "automattic"],
   "license": "GPL-2.0",
+  "homepage": "https://github.com/woocommerce/FlexSlider#readme",
   "bugs": {
     "url": "https://github.com/woocommerce/FlexSlider/issues"
   },
-  "homepage": "https://github.com/woocommerce/FlexSlider#readme",
+  "author": "Automattic <jeff@woothemes.com>",
+  "contributors":[
+    {
+      "name": "Jeff (main-developer)",
+      "email": "jeff@woothemes.com",
+      "url": "woothemes.com"
+    },
+    {
+      "name": "Gabriel Kaufmann (scss)",
+      "email": "info@typoworx.com",
+      "url": "https://typoworx.com"
+    }
+  ],
   "dependencies": {
     "jquery": ">=1.11.3"
   }

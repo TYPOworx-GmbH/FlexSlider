@@ -1,0 +1,17 @@
+{
+  "name": "fwf-searchbar",
+  "version": "1.0.0",
+  "description": "FWF-Searchbar Assets",
+  "author": "Gabriel Kaufmann",
+  "license": "UNLICENSED",
+  "scripts": {
+    "watch": "mix watch",
+    "dev": "mix",
+    "prod": "mix --production"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.22",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.3.0"
+  }
+}
