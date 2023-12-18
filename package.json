@@ -1,6 +1,6 @@
 {
   "name": "flexslider",
-  "version": "2.7.2-1",
+  "version": "2.7.2-2",
   "description": "An awesome, fully responsive jQuery slider toolkit.",
   "main": "jquery.flexslider.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/woothemes/FlexSlider.git"
+    "url": "git+https://github.com/TYPOworx-GmbH/FlexSlider.git"
   },
   "keywords": [
     "flexslider",
